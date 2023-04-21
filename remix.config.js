@@ -13,7 +13,7 @@ module.exports = {
   serverMainFields: ['browser', 'module', 'main'],
   serverConditions: ['worker', process.env.NODE_ENV],
   serverDependenciesToBundle: 'all',
-  serverModuleFormat: 'esm',
+  serverModuleFormat: 'cjs',
   serverPlatform: 'neutral',
   serverMinify: process.env.NODE_ENV === 'production',
 };
