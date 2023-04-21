@@ -15,7 +15,7 @@ import {GenericError} from './components/GenericError';
 import {NotFound} from './components/NotFound';
 
 import styles from './styles/app.css';
-import favicon from '../public/favicon.svg';
+import favicon from '../public/favicon.ico';
 
 import {DEFAULT_LOCALE, parseMenu} from './lib/utils';
 import invariant from 'tiny-invariant';
