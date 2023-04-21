@@ -7,13 +7,13 @@ module.exports = {
   /**
    * The following settings are required to deploy Hydrogen apps to Oxygen:
    */
-  publicPath: (process.env.HYDROGEN_ASSET_BASE_URL ?? '/') + 'build/',
+  publicPath: (process.env.HYDROGEN_ASSET_BASE_URL ?? '') + '/build/',
   assetsBuildDirectory: 'dist/client/build',
   serverBuildPath: 'dist/worker/index.js',
   serverMainFields: ['browser', 'module', 'main'],
   serverConditions: ['worker', process.env.NODE_ENV],
   serverDependenciesToBundle: 'all',
-  serverModuleFormat: 'cjs',
+  serverModuleFormat: 'esm',
   serverPlatform: 'neutral',
   serverMinify: process.env.NODE_ENV === 'production',
 };
