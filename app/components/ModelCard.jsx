@@ -89,6 +89,8 @@ export function ModelCard({textureId, avatarId}) {
                         //autoRotate
                         target={[0, 1.3, 0]}
                         enablePan = {false}
+                        minPolarAngle={0.85}
+                        maxPolarAngle={1.8}
                         minDistance={0.8}
                         maxDistance={3}
                     />
