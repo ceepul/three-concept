@@ -127,8 +127,6 @@ export function ProductGallery({media, selectedVariant, className}) {
   mediaObjects.map((obj) => { // creates an array of just the media objects that will be displayed
     if (obj !== null) augmentedMediaObjects.push(obj) 
   })
-
-  console.log(textureId)
   
   if (textureExists(textureId)) {
     augmentedMediaObjects.splice(mediaIndex, 0, ( // adds the 3d model viewer at the index specified by mediaIndex
