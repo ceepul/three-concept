@@ -13,6 +13,8 @@ const texturesMap = new Map([
     ['logo-t-shirt/BLACK / BLACK', '/models/textures/jackjones-logot-shirt-black-texture-map.png'],
     ['loose-fit-o-neck-t-shirt/BLACK / BLACK', '/models/textures/jackjones-loose-fit-o-neck-black-texture-map.png'],
     ['standard-fit-o-neck-t-shirt/BEIGE / MOONBEAM', '/models/textures/jackjones-standard-fit-o-neck-beige-texture-map.png'],
+    ['pull-bear-crop-top-with-tie-up-neckline/OFF WHITE', '/models/textures/crop-top-textureMap-off-white.jpg'],
+    ['pull-bear-crop-top-with-tie-up-neckline/TURQUOISE', '/models/textures/crop-top-textureMap-turquoise.jpg'],
   ]);
 
 export function ModelCard({textureId, avatarId}) {

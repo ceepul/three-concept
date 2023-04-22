@@ -18,6 +18,7 @@ export default function DressModel(props) {
     texture.encoding = 3001
     
     materials.Wolf3D_Outfit_Top.map = texture
+    materials.Wolf3D_Outfit_Top.metalness = 0.1
   }
 
     return (
