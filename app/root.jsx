@@ -23,7 +23,7 @@ import {useAnalytics} from './hooks/useAnalytics';
 
 const seo = ({data, pathname}) => ({
   title: data?.layout?.shop?.name,
-  titleTemplate: '%s | Hydrogen Demo Store',
+  titleTemplate: '%s | demo',
   description: data?.layout?.shop?.description,
   handle: '@shopify',
   url: `https://hydrogen.shop${pathname}`,
