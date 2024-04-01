@@ -1,4 +1,4 @@
-import { Canvas } from 'react-three-fiber';
+import { Canvas } from '@react-three/fiber';
 import { Suspense, useState, useEffect } from 'react';
 import { Environment, OrbitControls } from '@react-three/drei';
 import MensModel from './MensModel'
